@@ -14,13 +14,13 @@
 		A27B6DC819A34512002778CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A27B6DC719A34512002778CD /* main.m */; };
 		A27B6DCC19A34512002778CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A27B6DCB19A34512002778CD /* AppDelegate.m */; };
 		A27B6DCF19A34512002778CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B6DCD19A34512002778CD /* Main.storyboard */; };
-		A27B6DD219A34512002778CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27B6DD119A34512002778CD /* ViewController.m */; };
 		A27B6DD419A34512002778CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27B6DD319A34512002778CD /* Images.xcassets */; };
 		A27B6DDB19A34512002778CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27B6DDA19A34512002778CD /* XCTest.framework */; };
 		A27B6DDC19A34512002778CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27B6DBB19A34512002778CD /* Foundation.framework */; };
 		A27B6DDD19A34512002778CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27B6DBF19A34512002778CD /* UIKit.framework */; };
 		A27B6DE519A34512002778CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A27B6DE319A34512002778CD /* InfoPlist.strings */; };
 		A27B6DE719A34512002778CD /* nanapiTestiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27B6DE619A34512002778CD /* nanapiTestiOSTests.m */; };
+		A27B6DF219A34552002778CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27B6DF119A34552002778CD /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		A27B6DCA19A34512002778CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A27B6DCB19A34512002778CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A27B6DCE19A34512002778CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A27B6DD019A34512002778CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A27B6DD119A34512002778CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A27B6DD319A34512002778CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A27B6DD919A34512002778CD /* nanapiTestiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nanapiTestiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27B6DDA19A34512002778CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A27B6DE219A34512002778CD /* nanapiTestiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nanapiTestiOSTests-Info.plist"; sourceTree = "<group>"; };
 		A27B6DE419A34512002778CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A27B6DE619A34512002778CD /* nanapiTestiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nanapiTestiOSTests.m; sourceTree = "<group>"; };
+		A27B6DF019A34552002778CD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A27B6DF119A34552002778CD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				A27B6DCA19A34512002778CD /* AppDelegate.h */,
 				A27B6DCB19A34512002778CD /* AppDelegate.m */,
 				A27B6DCD19A34512002778CD /* Main.storyboard */,
-				A27B6DD019A34512002778CD /* ViewController.h */,
-				A27B6DD119A34512002778CD /* ViewController.m */,
+				A27B6DF019A34552002778CD /* ViewController.h */,
+				A27B6DF119A34552002778CD /* ViewController.m */,
 				A27B6DD319A34512002778CD /* Images.xcassets */,
 				A27B6DC219A34512002778CD /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A27B6DD219A34512002778CD /* ViewController.m in Sources */,
+				A27B6DF219A34552002778CD /* ViewController.m in Sources */,
 				A27B6DCC19A34512002778CD /* AppDelegate.m in Sources */,
 				A27B6DC819A34512002778CD /* main.m in Sources */,
 			);
