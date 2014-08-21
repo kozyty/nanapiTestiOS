@@ -21,6 +21,10 @@
 		A27B6DE519A34512002778CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A27B6DE319A34512002778CD /* InfoPlist.strings */; };
 		A27B6DE719A34512002778CD /* nanapiTestiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27B6DE619A34512002778CD /* nanapiTestiOSTests.m */; };
 		A27B6DF219A34552002778CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27B6DF119A34552002778CD /* ViewController.m */; };
+		A2B4476C19A5CCEC006826FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B4476B19A5CCEC006826FF /* MapKit.framework */; };
+		A2B4476F19A5CE2A006826FF /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B4476E19A5CE2A006826FF /* MapViewController.m */; };
+		A2B4477119A5CEF8006826FF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B4477019A5CEF8006826FF /* CoreLocation.framework */; };
+		D13023DF74704194A49FF76F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B38829ED3E4E1EA52216CE /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		280A2A2E3D1C42C588CFDE50 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A27B6DB819A34512002778CD /* nanapiTestiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nanapiTestiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27B6DBB19A34512002778CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A27B6DBD19A34512002778CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,11 @@
 		A27B6DE619A34512002778CD /* nanapiTestiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nanapiTestiOSTests.m; sourceTree = "<group>"; };
 		A27B6DF019A34552002778CD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A27B6DF119A34552002778CD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2B4476B19A5CCEC006826FF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A2B4476D19A5CE2A006826FF /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		A2B4476E19A5CE2A006826FF /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		A2B4477019A5CEF8006826FF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D2B38829ED3E4E1EA52216CE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +70,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B4477119A5CEF8006826FF /* CoreLocation.framework in Frameworks */,
+				A2B4476C19A5CCEC006826FF /* MapKit.framework in Frameworks */,
 				A27B6DBE19A34512002778CD /* CoreGraphics.framework in Frameworks */,
 				A27B6DC019A34512002778CD /* UIKit.framework in Frameworks */,
 				A27B6DBC19A34512002778CD /* Foundation.framework in Frameworks */,
+				D13023DF74704194A49FF76F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +99,7 @@
 				A27B6DE019A34512002778CD /* nanapiTestiOSTests */,
 				A27B6DBA19A34512002778CD /* Frameworks */,
 				A27B6DB919A34512002778CD /* Products */,
+				280A2A2E3D1C42C588CFDE50 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +115,13 @@
 		A27B6DBA19A34512002778CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A2B4477019A5CEF8006826FF /* CoreLocation.framework */,
+				A2B4476B19A5CCEC006826FF /* MapKit.framework */,
 				A27B6DBB19A34512002778CD /* Foundation.framework */,
 				A27B6DBD19A34512002778CD /* CoreGraphics.framework */,
 				A27B6DBF19A34512002778CD /* UIKit.framework */,
 				A27B6DDA19A34512002778CD /* XCTest.framework */,
+				D2B38829ED3E4E1EA52216CE /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +134,8 @@
 				A27B6DCD19A34512002778CD /* Main.storyboard */,
 				A27B6DF019A34552002778CD /* ViewController.h */,
 				A27B6DF119A34552002778CD /* ViewController.m */,
+				A2B4476D19A5CE2A006826FF /* MapViewController.h */,
+				A2B4476E19A5CE2A006826FF /* MapViewController.m */,
 				A27B6DD319A34512002778CD /* Images.xcassets */,
 				A27B6DC219A34512002778CD /* Supporting Files */,
 			);
@@ -159,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A27B6DEA19A34512002778CD /* Build configuration list for PBXNativeTarget "nanapiTestiOS" */;
 			buildPhases = (
+				4EB68BAD02134DD797EE2563 /* Check Pods Manifest.lock */,
 				A27B6DB419A34512002778CD /* Sources */,
 				A27B6DB519A34512002778CD /* Frameworks */,
 				A27B6DB619A34512002778CD /* Resources */,
+				3D4C9A1B130746E9A63543D6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +265,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D4C9A1B130746E9A63543D6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB68BAD02134DD797EE2563 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A27B6DB419A34512002778CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -252,6 +306,7 @@
 				A27B6DF219A34552002778CD /* ViewController.m in Sources */,
 				A27B6DCC19A34512002778CD /* AppDelegate.m in Sources */,
 				A27B6DC819A34512002778CD /* main.m in Sources */,
+				A2B4476F19A5CE2A006826FF /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +428,7 @@
 		};
 		A27B6DEB19A34512002778CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280A2A2E3D1C42C588CFDE50 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +442,7 @@
 		};
 		A27B6DEC19A34512002778CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280A2A2E3D1C42C588CFDE50 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +513,7 @@
 				A27B6DEC19A34512002778CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A27B6DED19A34512002778CD /* Build configuration list for PBXNativeTarget "nanapiTestiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +522,7 @@
 				A27B6DEF19A34512002778CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

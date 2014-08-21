@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MapViewController.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -75,4 +76,11 @@
     cell.textLabel.text = [recipe objectForKey:@"title"];
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    MapViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"MapViewController"];
+    [self.navigationController pushViewController:controller animated:YES];
+}
+
 @end
